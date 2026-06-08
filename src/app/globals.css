@@ -79,6 +79,19 @@ button {
   cursor: pointer;
 }
 
+/* Remove the mobile blue tap flash and the click/focus outline on buttons & links */
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus,
+button:focus-visible,
+a:focus,
+a:focus-visible {
+  outline: none;
+}
+
 .button {
   position: relative;
   z-index: 3;
