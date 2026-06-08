@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.DS_Store
+*.log
+.env*
+
+# build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# unused source renders (app uses public/images/)
+img/
+/logo.png

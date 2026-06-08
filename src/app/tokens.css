@@ -1,0 +1,50 @@
+:root {
+  --green: #b2ce5e;
+  --dark-green: #7fa235;
+  --orange: #e27248;
+  --dark-orange: #c1572f;
+  --cream: #fbf6ec;
+  --black: #2b2620;
+  --dark-grey: #4a443a;
+  --grey: #f2efe8;
+  --white: #ffffff;
+
+  /* legacy aliases mapped to the new brand palette */
+  --purple: var(--orange);
+  --dark-purple: var(--dark-orange);
+  --pink: var(--green);
+  --blue: var(--green);
+  --yellow: #ffd449;
+
+  --font-display: "Vanguard", "Arial Narrow", Arial, sans-serif;
+  --font-body: "Instrument Sans", Arial, sans-serif;
+  --font-script: "Permanent Marker", "Comic Sans MS", cursive;
+
+  --nav-height: 5.625rem;
+  --container-max: 112.938rem;
+  --page-gutter: 2.5rem;
+
+  --section-pad: 6rem;
+  --section-gap: 3rem;
+  --block-gap: 1.75rem;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 991px) {
+  :root {
+    --nav-height: 4.375rem;
+    --page-gutter: 1.25rem;
+    --section-pad: 4rem;
+    --section-gap: 2.25rem;
+    --block-gap: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --nav-height: 4.2rem;
+    --page-gutter: 1rem;
+    --section-pad: 3rem;
+  }
+}
