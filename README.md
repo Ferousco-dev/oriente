@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Deployed-Vercel-000000?logo=vercel" alt="Vercel">
 </p>
 
-**Live demo:** [oriente-black.vercel.app](https://oriente-nu.vercel.app)
+**Live demo:** [oriente-nu.vercel.app](https://oriente-nu.vercel.app)
 
 ## Overview
 
